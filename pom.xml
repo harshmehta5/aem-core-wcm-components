@@ -71,6 +71,7 @@
         <module>all</module>
         <module>examples</module>
         <module>extensions/amp</module>
+        <module>extensions/email</module>
     </modules>
 
 </project>

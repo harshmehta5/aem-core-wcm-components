@@ -57,6 +57,11 @@
                             <target>/apps/core/wcm/install</target>
                         </embedded>
                         <embedded>
+                            <groupId>${project.groupId}</groupId>
+                            <artifactId>core.wcm.components.extensions.email</artifactId>
+                            <target>/apps/core/wcm/install</target>
+                        </embedded>
+                        <embedded>
                             <groupId>org.apache.sling</groupId>
                             <artifactId>org.apache.sling.models.impl</artifactId>
                             <target>/apps/core/wcm/install</target>
@@ -76,6 +81,11 @@
                         <subPackage>
                             <groupId>${project.groupId}</groupId>
                             <artifactId>core.wcm.components.extensions.amp.content</artifactId>
+                            <filter>true</filter>
+                        </subPackage>
+                        <subPackage>
+                            <groupId>${project.groupId}</groupId>
+                            <artifactId>core.wcm.components.extensions.email.content</artifactId>
                             <filter>true</filter>
                         </subPackage>
                     </subPackages>
@@ -180,6 +190,19 @@
         <dependency>
             <groupId>${project.groupId}</groupId>
             <artifactId>core.wcm.components.extensions.amp.content</artifactId>
+            <type>zip</type>
+            <version>${project.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>core.wcm.components.extensions.email</artifactId>
+            <version>${project.version}</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>core.wcm.components.extensions.email.content</artifactId>
             <type>zip</type>
             <version>${project.version}</version>
             <scope>provided</scope>
