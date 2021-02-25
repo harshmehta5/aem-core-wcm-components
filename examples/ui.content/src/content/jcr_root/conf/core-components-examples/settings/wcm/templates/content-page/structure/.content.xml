@@ -62,7 +62,7 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core-components-examples/components/accordion"
-                    expandedItems="[item_1579021121673,item_1579021131667,item_1579021109267,item_1579021109268]"
+                    expandedItems="[item_1579021121673,item_1579021131667,item_1579021109267,item_1579021109268,item_1579021109269]"
                     singleExpansion="false">
                     <item_1579021121673
                         cq:panelTitle="Templating"
@@ -104,6 +104,7 @@
                         navigationRoot="/content/core-components-examples/library/form"
                         structureDepth="1"
                         structureStart="1"/>
+                    <item_1579021109269/> <!-- Commerce menu items -->
                 </accordion>
             </sidebar>
             <responsivegrid
@@ -134,15 +135,13 @@
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="core/wcm/components/separator/v1/separator"/>
-                <text
+                <footer
                     jcr:created="{Date}2019-02-28T21:40:52.076+01:00"
                     jcr:createdBy="admin"
                     jcr:lastModified="{Date}2019-02-28T21:41:47.838+01:00"
                     jcr:lastModifiedBy="admin"
                     jcr:primaryType="nt:unstructured"
-                    sling:resourceType="core/wcm/components/text/v2/text"
-                    text="&lt;p>Built with &lt;a href=&quot;https://github.com/adobe/aem-core-wcm-components/releases/tag/core.wcm.components.reactor-2.11.0&quot;>Core Components 2.11.0&lt;/a>.&lt;/p>&#xa;"
-                    textIsRich="true"/>
+                    sling:resourceType="core-components-examples/components/version/footer"/>
             </responsivegrid_2176569853>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
