@@ -27,7 +27,7 @@
         <relativePath>../../parent/pom.xml</relativePath>
     </parent>
 
-    <artifactId>core.wcm.components.extensions.emai.reactor</artifactId>
+    <artifactId>core.wcm.components.extensions.email.reactor</artifactId>
     <version>2.15.1-SNAPSHOT</version>
     <packaging>pom</packaging>
 
